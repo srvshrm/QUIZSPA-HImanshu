@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <script src="main.js"></script>
+</head>
+<body onload="getData()">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">My Quiz Spa</a>
+    </nav>  
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title"><h5 id="qNo"></h5></div>
+                        <div class-"card-text">
+                            <p id="question"></p>
+                            <div id="options">
+                                <input type="radio" name="" id="">
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-warning float-right" onclick="submitQuiz()" id="submit" disabled>Submit Quiz</button> 
+                        <button class="btn btn-outline-primary float-right" onclick="submitQuestion()" id="next">Next Question</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

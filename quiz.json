@@ -1,0 +1,52 @@
+[
+    {
+        "question":"The behaviour of the instances present of a class inside a method is defined by",
+        "options": {
+            "a":"Method",
+            "b":"Classes",
+            "c":"Interfaces",
+            "d":"Classes and Interfaces"
+        },
+        "answer":"b"
+    },
+    {
+        "question":"The keyword or the property that you use to refer to an object through which they were invoked is",
+        "options": {
+            "a":"from",
+            "b":"to",
+            "c":"this",
+            "d":"object"
+        },
+        "answer":"c"
+    },
+    {
+        "question":"The basic difference between JavaScript and Java is",
+        "options": {
+            "a":"There is no difference",
+            "b":"Functions are considered as fields",
+            "c":"Variables are specific",
+            "d":"Functions are values, and there is no hard distinction between methods and fields"
+        },
+        "answer":"d"
+    },
+    {
+        "question":"The method that can be used to create new properties and also to modify the attributes of existing properties is",
+        "options": {
+            "a":"Object.defineProperty()",
+            "b":"Object.defineProperties()",
+            "c":"Both Object.defineProperty() and Object.defineProperties()",
+            "d":"None of the mentioned"
+        },
+        "answer":"c"
+    },
+    {
+        "question":"The property of JSON() method is:",
+        "options": {
+            "a":"it can be invoked manually as object.JSON()",
+            "b":"it will be automatically invoked by the compiler",
+            "c":"it is invoked automatically by the JSON.stringify() method",
+            "d":"it cannot be invoked in any form"
+        },
+        "answer":"c"
+    }
+]
